@@ -14,7 +14,7 @@ void draw() {
   noStroke();
   fill (255);
   ellipse (350, 160, 50, 50);
-  ellipse (150, 130, 50, 50);
+  ellipse (150, 160, 50, 50);
   if (mouseY < height/2) {
     fill(255);
     arc(250, 250, 300, 300, 0, PI);
